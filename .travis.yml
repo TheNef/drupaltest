@@ -1,5 +1,6 @@
-﻿language: php
+language: php
 php:
   - 5.5
   - 5.4
-script: phpunit unitest.php
+  - hhvm
+script: phpunit Test.php
